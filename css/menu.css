@@ -10,3 +10,10 @@
 .menu li:hover{
     border-color: var(--primary-color);
 }
+@media (max-width: 960px){
+    
+.menu li{
+    display: none;
+}
+
+}

@@ -32,18 +32,19 @@ main{
 section{
     height: 100vh;
 }
-.projetos{
-    width: 100%;
-    background-color: lightsteelblue;
-}
-.contato{
-    width: 100%;
-    background-color: lightslategrey;
-}
 footer{
     place-self: end start;
     grid-area: content;
-    height: 100px;
+    height: 50px;
     width: 100%;
-    background-color: #0008;
+    display: grid;
+    place-content: center;
+    font-size: .75rem;
+    border-top: 2px solid #fff;
+}
+@media (max-width: 960px){
+
+    section{
+        height: 100vh;
+    }
 }
