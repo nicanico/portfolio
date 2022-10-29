@@ -3,6 +3,9 @@
     gap: 72px;
     font-size: 1.25rem;
 }
+.menu-responsivo{
+    display: none;
+}
 .menu li{
     border-bottom: 4px solid transparent;
     transition: border-color 1s;
@@ -10,10 +13,18 @@
 .menu li:hover{
     border-color: var(--primary-color);
 }
+
 @media (max-width: 960px){
     
-.menu li{
+.menu{
     display: none;
+}
+.menu-responsivo{
+    margin: 10px;
+    display: flex;
+    font-size: 1.5rem;
+    text-align: right;
+    
 }
 
 }

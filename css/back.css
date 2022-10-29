@@ -16,3 +16,9 @@
 .back:hover{
     opacity: 1;
 }
+@media (max-width: 960px) {
+
+    .back{
+        display: none;
+    }
+}

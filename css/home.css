@@ -25,6 +25,12 @@
     flex-direction: column;
     align-items: center;
     align-self: center;
+    box-shadow: inset 0px -40px 40px #000000;
+}
+.home__text,
+.home__name{
+    display: flex;
+    justify-content: center;
 }
 
 }
