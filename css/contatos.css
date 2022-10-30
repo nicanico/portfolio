@@ -60,7 +60,24 @@
         margin-bottom: 7rem;
     }
 }
-
 @media (max-width: 640px) {
-    
+    .contato{
+        display: flex;
+        flex-direction: column;
+        height: 70rem;
+        gap: 30px;
+    }
+    .contato-container{
+        display: flex;
+        align-items: center;
+        align-self: center;
+        gap: 30px;
+    }
+    .social-container{
+        display: flex;
+        align-items: center;
+        align-self: center;
+        flex-direction: column;
+        place-self: center;
+    }
 }

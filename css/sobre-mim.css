@@ -77,5 +77,16 @@
     .skills__title{
         margin-left: 49px;
     }
-
+}
+@media (max-width: 640px) {
+    .sobre-mim{
+        height: 90rem;
+    }
+    .description__text,
+    .description__title {
+        margin-right: 49px;
+    }
+    .skills__icons{
+        justify-content: flex-start;
+    }
 }
