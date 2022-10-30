@@ -43,8 +43,14 @@ footer{
     border-top: 2px solid #fff;
 }
 @media (max-width: 960px){
-
-    section{
-        height: 100vh;
+    header{
+        max-width: 700px;
+        width: 100%;
     }
+}
+@media (max-width: 640px){
+    header {
+        max-width: 450px;
+            width: 100%;
+        }
 }

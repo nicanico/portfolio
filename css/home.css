@@ -20,12 +20,12 @@
 @media (max-width: 960px){
     
 .home{
-    background-size: auto;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-self: center;
-    box-shadow: inset 0px -40px 40px #000000;
+    
 }
 .home__text,
 .home__name{

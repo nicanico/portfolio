@@ -50,3 +50,17 @@
 .link-title{
     font-size: 1.5rem;
 }
+@media (max-width: 960px) {
+    .contato{
+        max-width: 700px;
+    }
+    .social-container{
+        display: flex;
+        place-self: end center;
+        margin-bottom: 7rem;
+    }
+}
+
+@media (max-width: 640px) {
+    
+}
