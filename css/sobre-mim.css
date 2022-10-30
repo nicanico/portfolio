@@ -86,7 +86,12 @@
     .description__title {
         margin-right: 49px;
     }
+    .skills__icon{
+        width: 120px;
+        height: 120px;
+    }
     .skills__icons{
         justify-content: flex-start;
     }
+    
 }
