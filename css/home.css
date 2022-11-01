@@ -44,12 +44,13 @@
     .home__text{
         display: flex;
         place-content: center;
-        font-size: 1.90rem;
+        font-size: 1.70rem;
     }
     .home__name {
         display: flex;
         align-items: center;
         align-self: center;
         place-content: center;
+        font-size: 3.50rem;
         }
 }
