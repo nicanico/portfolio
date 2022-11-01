@@ -40,15 +40,11 @@
     .home {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        align-self: center;
         }
     .home__text{
         display: flex;
-        align-items: center;
-        align-self: center;
         place-content: center;
-        font-size: 2rem;
+        font-size: 1.90rem;
     }
     .home__name {
         display: flex;
