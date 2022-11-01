@@ -57,14 +57,15 @@
     .social-container{
         display: flex;
         place-self: end center;
-        margin-bottom: 7rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
     }
 }
 @media (max-width: 640px) {
     .contato{
         display: flex;
         flex-direction: column;
-        height: 70rem;
+        height: 76rem;
         gap: 30px;
     }
     .contato-container{
