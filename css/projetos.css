@@ -32,7 +32,7 @@ transform: translateY(0%);
 }
 @media (max-width: 960px){
     .projetos{
-        height: 130rem;
+        height: 127rem;
     }
     .card-container{
         flex-direction: column;
