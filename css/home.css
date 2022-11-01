@@ -43,11 +43,17 @@
         align-items: center;
         align-self: center;
         }
-    .home__text,
+    .home__text{
+        display: flex;
+        align-items: center;
+        align-self: center;
+        place-content: center;
+        font-size: 2rem;
+    }
     .home__name {
         display: flex;
         align-items: center;
         align-self: center;
-        
+        place-content: center;
         }
 }
