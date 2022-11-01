@@ -80,4 +80,9 @@
         flex-direction: column;
         place-self: center;
     }
+    .link-container{
+        display: flex;
+        align-items: center;
+        align-self: center;
+    }
 }
