@@ -39,6 +39,10 @@
     background-color: #252525;
     display: grid;
     place-content: center;
+    transition: 1s;
+}
+.social-item:hover{
+    background-color: #3399ff;
 }
 .link-container{
     grid-area: link;

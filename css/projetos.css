@@ -15,6 +15,7 @@
     position: relative;
     overflow: hidden;
 }
+
 .card::before{
     content: "Clique aqui para abrir o projeto";
     position: absolute;
